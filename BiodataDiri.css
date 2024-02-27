@@ -1,0 +1,48 @@
+/* Mengatur style dalam class body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* Menghilangkan margin pada body */
+    padding: 0; /* Menghilangkan padding pada body */
+    background: linear-gradient(to bottom, Black, White); /* Mengatur latar belakang dengan gradient dari hitam ke putih */
+}
+
+/* Mengatur style untuk judul pada class h1 */
+h1 {
+    color: #fff; /* Mengatur warna teks menjadi putih */
+}
+
+/* Mengatur style pada class tabel */
+table {
+    background-color: White(20); /* Mengatur warna latar belakang tabel dengan transparansi 20% */
+    border-collapse: collapse; /* Menggabungkan garis-garis batas sel */
+    border: 2px solid white; /* Mengatur border tabel dengan warna putih dan ketebalan 2px */
+    width: 60%; /* Mengatur lebar tabel menjadi 60% dari lebar parent */
+    margin: auto; /* Memposisikan tabel di tengah halaman */
+}
+
+/* Mengatur style untuk sel data dalam tabel pada class td*/
+td {
+    padding: 10px; /* Mengatur padding dalam sel sebesar 10px */
+    border-bottom: 1px solid white; /* Mengatur garis bawah setiap sel dengan warna putih dan ketebalan 1px */
+    color: Black; /* Mengatur warna teks menjadi hitam */
+    font-weight: bold; /* Mengatur tebal teks menjadi tebal */
+}
+
+/* Mengatur style untuk sel data pertama dalam tabel pada class td*/
+td:first-child {
+    font-weight: bold; /* Mengatur tebal teks untuk sel pertama */
+    width: 40%; /* Mengatur lebar sel pertama menjadi 40% dari lebar tabel */
+}
+
+/* Mengatur style untuk sel data kedua dalam tabel pada class td*/
+td:nth-child(2) {
+    width: 60%; /* Mengatur lebar sel kedua menjadi 60% dari lebar tabel */
+}
+
+/* Mengatur style untuk gambar pada class img*/
+img {
+    display: block; /* Mengatur gambar menjadi block element */
+    margin: 0 auto; /* Memposisikan gambar di tengah secara horizontal */
+    border: 2px solid #fff; /* Mengatur border gambar dengan warna putih dan ketebalan 2px */
+    border-radius: 8px; /* Mengatur border-radius untuk membuat sudut-sudut gambar menjadi melengkung */
+}
